@@ -1,0 +1,19 @@
+var student ={
+    name:"siri",
+    age:50,
+    country:"india",
+    hobby:"gardening"
+};
+{
+    name:"sri",
+    age:43,
+    country:"america",
+    hobby:"playing"
+
+};
+{
+    name:"pooja",
+    age:25,
+    country:"australia",
+    hobby:"reading"
+}
