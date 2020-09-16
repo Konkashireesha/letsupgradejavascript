@@ -1,0 +1,34 @@
+let students=[
+    {
+        name:"siri",
+        age:"49",
+        country:"india",
+        hobbies:["playing","gardening"]
+    },
+    {
+        name:"sri",
+        age:"23",
+        country:"america",
+        hobbies:["reading","playing"]
+    },
+    {
+        name:"pooja",
+        age:"20",
+        country:"australia",
+        hobbies:["cooking","gardening"]
+    },
+    {
+        name:"moni",
+        age:"46",
+        country:"india",
+        hobbies:["playing","cooking"]
+    }
+];
+for(let i=0;i<=30;i++){
+    console.log(students[i].age);
+}
+
+for (let i=0;i="india";i++){
+    console.log(students[i].country);
+}
+
