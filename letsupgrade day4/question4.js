@@ -24,11 +24,15 @@ let students=[
         hobbies:["playing","cooking"]
     }
 ];
-for(let i=0;i<=30;i++){
-    console.log(students[i].age);
+{ let user=students.filter(function(student){
+    return student.age<=30;
+    });
+    console.log(user);
 }
 
-for (let i=0;i="india";i++){
-    console.log(students[i].country);
+{ let data=students.filter(function(student){
+    return student.country=="india";
+    });
+    console.log(data);
 }
 
